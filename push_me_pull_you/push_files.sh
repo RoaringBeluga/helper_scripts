@@ -2,7 +2,7 @@
 
 usage() {
     echo "Push files with given mask to the Android device"
-    echo "$0 -s <source_directory> -d <destination_directory> <file_mask>"
+    echo "$0 [-s <source_directory>] [-d <destination_directory>] <file_mask>"
     exit 1
 }
 

@@ -1,7 +1,7 @@
 #!/bin/sh
 usage () {
     echo "Pull multiple files via ADB. Usage:"
-    echo "\t$0 [-e <output_file_suffix>] [-d <destination>] [-s <source_dir>] <filename_pattern>"
+    echo "\t$0 [-e <output_file_suffix>] [-d <destination>] [-s <source_dir>] [<filename_pattern>]"
 }
 
 SUFFIX=""
